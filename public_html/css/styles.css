@@ -1,7 +1,24 @@
-#navigation > img {
-    height: 10%;
-}
 
 #navigation {
-    height: 50vh;
+    margin: 0;
+    padding: 0;
+    background: url("../img/Opium.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 70vh;
+    object-fit: cover;
+}
+
+.splash-text {
+    color: white;
+    font-family: "Open Sans Light", sans-serif;
+    font-size: 5rem;
+}
+
+.splash-text > p {
+    text-align: center;
+}
+
+.splash-text > button {
+    border-radius: 0;
+    font-size: 0.8rem;
 }
